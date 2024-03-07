@@ -28,9 +28,6 @@ function adicionaLinha(){
     linha += `<td>${telefone.value}</td>`;
     linha += `</tr>`;
     linhas += linha;
-
-    nomePessoa = '';
-    telefonePessoa = '';
 }
 function atualizaLinha(){
     const corpoTabela = document.querySelector('tbody');
