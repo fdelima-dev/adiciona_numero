@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiciona Telefone</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Adiciona Telefone</h1>
+    </header>
+    <form>
+        <label for="nome">Nome</label>
+        <br>
+        <input type="text" id="nome" name="nome" value="" required placeholder="insira nome...">
+        <label for="telefone">Telefone</label>
+        <br>
+        <input type="number" id="telefone" name="telefone" value="" required placeholder="insira telefone...">
+        <button type="submit">Adicionar +</button>
+    </form>
+    <main>
+        <section>
+            <div class="container">
+                <table align="center" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome:
+                            </th>
+                            <th>
+                                Telefone:
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="mostraNome">Arnaldo</td>
+                            <td class="mostraTelefone">+55 19 98989 1919</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            IEP Piracicaba 2024. All rights reserved.
+        </p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
